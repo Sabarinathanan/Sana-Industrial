@@ -6,22 +6,22 @@ import { Link } from "react-router-dom";
 const SemiGlossyColors = () => {
   // Data for Glossy Colors
   const colors = [
-    { color: "#F5F5F5", name: "IVORY SATIN", code: "HivS-014" },
     { color: "#FAFAFA", name: "WHITE S/M", code: "HWHS-007" },
     { color: "#F2EACD", name: "NEW IVORY S/G", code: "HlvS-013" },
     { color: "#9B9B9B", name: "SIEMENS GREY S/G", code: "HGrS-015" },
     { color: "#3B3B3B", name: "RAL 7012 S/G", code: "HGrS-022" },
     { color: "#D9D9D9", name: "ZINC PRIMER", code: "EGrS-006" },
-    { color: "#6B8EAD", name: "ULTRA BLUE SATIN", code: "HBIS-003" },
     { color: "#E7E6E0", name: "BROKEN WHITE S/M", code: "HWHS-006" },
-    { color: "#8B5A2B", name: "BROWN SATIN", code: "HBr5-002" },
-    { color: "#A67E55", name: "BCB SATIN", code: "HBrS-008" },
-    { color: "#313131", name: "BLACK SATIN", code: "HBKS-012" },
     { color: "#000000", name: "RAL 9005 S/G", code: "HBKS-019" },
-    { color: "#6B8EAD", name: "ULTRA BLUE SATIN", code: "HBIS-003" },
+    { color: "#F5F5F5", name: "IVORY", code: "HivS-014" },
+    { color: "#6B8EAD", name: "ULTRA BLUE", code: "HBIS-003" },
+    { color: "#8B5A2B", name: "BROWN", code: "HBr5-002" },
+    { color: "#313131", name: "BLACK", code: "HBKS-012" },
+    { color: "#A67E55", name: "BCB", code: "HBrS-008" },
+    { color: "#6B8EAD", name: "ULTRA BLUE", code: "HBIS-003" },
+    { color: "#8B5A2B", name: "UNI BROWN", code: "HBrS-018" },
     { color: "#FFD700", name: "YELLOW S/G", code: "HYWS-003" },
     { color: "#FFA500", name: "FLAME ORANGE S/G", code: "HRdS-006" },
-    { color: "#8B5A2B", name: "UNI BROWN SATIN", code: "HBrS-018" },
   ];
 
   const [showPopup, setShowPopup] = useState(false);
@@ -44,7 +44,7 @@ const SemiGlossyColors = () => {
     <>
       <div className="background"></div>
       <header>
-        <h1>GLOOSY</h1>
+        <h1>SEMI-GLOOSY</h1>
       </header>
 
       <section className="filters">
@@ -53,6 +53,9 @@ const SemiGlossyColors = () => {
         </div>
         <div  className="bg">
           <Link to="/SemiGlossy">Semi-gloss</Link>
+        </div>
+        <div >
+          <Link to="/Satin">Satin</Link>
         </div>
         <div>
           <Link to="/Structure">Structure</Link>
