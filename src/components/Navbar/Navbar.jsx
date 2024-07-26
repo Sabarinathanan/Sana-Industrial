@@ -12,8 +12,8 @@ function Navbar() {
       {/* nav  */}
       <nav>
         <div className="nav-logo">
-          <img src='/logo.jpeg' width="50px" alt="" />
-          SaNa Industrial
+          <img src='/logo.png' width="50px" alt="" />
+          <span>SANA INDUSTRY</span>
         </div>
         <div className="nav-details">
           <div>
