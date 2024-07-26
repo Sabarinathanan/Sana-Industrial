@@ -3,7 +3,7 @@ function Navbar() {
   return (
     <>
       <div className="background" />
-      <a href="http://wa.me/+917092937773" className="whatsapp">
+      <a href="http://wa.me/+917845025709" className="whatsapp">
         <i className="fa-brands fa-whatsapp fa-fade fa-xl" />
       </a>
       {/* nav  */}
@@ -30,13 +30,13 @@ function Navbar() {
         </div>
         <div className="nav-icons">
           <div>
-            <i className="fa-solid fa-envelope" />
+            <a href="https://maps.app.goo.gl/7xVARwt2TiH7cwTC9" target='_blank'><i class="fa-solid fa-location-dot fa-md"/></a>
           </div>
           <div>
-            <i className="fa-brands fa-facebook" />
+            <a href="mailto:sanaindustries2k19@gmail.com" target='_blank'><i className="fa-solid fa-envelope fa-md"/></a>
           </div>
           <div>
-            <i className="fa-brands fa-instagram" />
+            <a href="https://www.instagram.com/sana.industries?igsh=MTU4N2cyOGk1c3ZyNQ%3D%3D&utm_source=qr" target='_blank'><i className="fa-brands fa-instagram fa-md"/></a>
           </div>
         </div>
       </nav>
