@@ -84,6 +84,9 @@ const GlossyColors = () => {
         <div>
           <Link to="/SemiGlossy">Semi-gloss</Link>
         </div>
+        <div >
+          <Link to="/Satin">Satin</Link>
+        </div>
         <div>
           <Link to="/Structure">Structure</Link>
         </div>
