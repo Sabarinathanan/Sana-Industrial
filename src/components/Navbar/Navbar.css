@@ -62,6 +62,9 @@ nav {
     display: flex;
     justify-content: space-evenly;
     width: 10vw;
+    a{
+        color: white;
+    }
 }
 
 .nav-icons i {
@@ -71,7 +74,5 @@ nav {
 
 .contact{
     margin-bottom: 5px;
-    a{
-        color: yellow;
-    }
+
 }
