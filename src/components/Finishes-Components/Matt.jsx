@@ -22,7 +22,10 @@ const MattColors = () => {
     { color: "#800000", name: "MAROON MATT" },
     { color: "#8B4513", name: "NUT BROWN MATT" },
     { color: "#5D3B2A", name: "BROWN MATT" },
-    { color: "#5C4033", name: "BCB MATT" }
+    { color: "#5C4033", name: "BCB MATT" },
+    { color: "#1C1C1C", name: "BLACK MATT F" },
+    { color: "#1C1C1C", name: "BLACK DEAD MATT" },
+    { color: "#1C1C1C", name: "BLACK MATT SUPER" },
   ];
 
   const [showPopup, setShowPopup] = useState(false);
@@ -45,7 +48,7 @@ const MattColors = () => {
     <>
       <div className="background"></div>
       <header>
-        <h1>GLOOSY</h1>
+        <h1>MATT</h1>
       </header>
 
       <section className="filters">
@@ -54,6 +57,9 @@ const MattColors = () => {
         </div>
         <div>
           <Link to="/SemiGlossy">Semi-gloss</Link>
+        </div>
+        <div >
+          <Link to="/Satin">Satin</Link>
         </div>
         <div>
           <Link to="/Structure">Structure</Link>
@@ -97,4 +103,5 @@ const MattColors = () => {
 };
 
 export default MattColors;
+
 
