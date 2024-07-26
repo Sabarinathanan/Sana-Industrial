@@ -8,6 +8,7 @@ import StructureColors from './components/Finishes-Components/Structure.jsx';
 import TextureColors from './components/Finishes-Components/Texture.jsx';
 import Home from './components/Home/Home.jsx';
 import Cards from './components/Application-cards/Cards.jsx';
+import SatinColors from './components/Finishes-Components/Satin.jsx';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/SemiGlossy" element={<SemiGlossyColors />} />
           <Route path="/Structure" element={<StructureColors />} />
           <Route path="/Texture" element={<TextureColors />} />
+          <Route path="/Satin" element={<SatinColors />} />
         </Routes>
       </BrowserRouter>
     </div>
