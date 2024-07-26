@@ -1,8 +1,12 @@
-import '../Carousel/Carousel.css'
+import '../Carousel/Carousel.css';
+import { Element } from 'react-scroll';
+
 function Carousel() {
     return ( 
         <>
   {/* carousel  */}
+  <Element name="homepage" className="section">
+
   <section className="carousel">
     <div id="hero-carousel" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-indicators">
@@ -106,6 +110,7 @@ function Carousel() {
       </button>
     </div>
   </section>
+  </Element>
 </>
 
      );
