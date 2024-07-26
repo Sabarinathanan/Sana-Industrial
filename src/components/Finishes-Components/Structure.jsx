@@ -44,7 +44,7 @@ const StructureColors = () => {
     <>
       <div className="background"></div>
       <header>
-        <h1>GLOOSY</h1>
+        <h1>STURCTURE</h1>
       </header>
 
       <section className="filters">
@@ -53,6 +53,9 @@ const StructureColors = () => {
         </div>
         <div>
           <Link to="/SemiGlossy">Semi-gloss</Link>
+        </div>
+        <div >
+          <Link to="/Satin">Satin</Link>
         </div>
         <div className="bg">
           <Link to="/Structure">Structure</Link>
