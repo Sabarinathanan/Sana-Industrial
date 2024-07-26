@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 .background{
     background-image:linear-gradient(to bottom,black,rgb(148, 102, 102, 0.781),white);
     position: fixed;
@@ -43,6 +45,13 @@ nav {
 .nav-logo {
     width: 20vw;
     padding-left: 20px;
+    font-family: "Arsenal SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24PX;
+  span{
+    margin-left: 10px;
+  }
 }
 
 .nav-details {
