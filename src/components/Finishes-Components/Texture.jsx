@@ -6,12 +6,9 @@ import { Link } from "react-router-dom";
 const TextureColors = () => {
   // Data for Glossy Colors
   const colors = [
-    { color: "#1C1C1C", name: "BLACK MATT F" },
     { color: "#FFFFFF", name: "WHITE TEXTURE" },
     { color: "#F5F5DC", name: "IVORY TEXTURE" },
     { color: "#B0C4DE", name: "LIGHT COOL GREY TEXTURE" },
-    { color: "#1C1C1C", name: "BLACK MATT SUPER" },
-    { color: "#1C1C1C", name: "BLACK DEAD MATT" },
     { color: "#808080", name: "GREY TEXTURE" },
     { color: "#696969", name: "MUNSHELL GREY TEXTURE" },
     { color: "#A9A9A9", name: "DA GREY TEXTURE" },
@@ -46,7 +43,7 @@ const TextureColors = () => {
     <>
       <div className="background"></div>
       <header>
-        <h1>GLOOSY</h1>
+        <h1>TEXTURE</h1>
       </header>
 
       <section className="filters">
@@ -55,6 +52,9 @@ const TextureColors = () => {
         </div>
         <div>
           <Link to="/SemiGlossy">Semi-gloss</Link>
+        </div>
+        <div >
+          <Link to="/Satin">Satin</Link>
         </div>
         <div>
           <Link to="/Structure">Structure</Link>
