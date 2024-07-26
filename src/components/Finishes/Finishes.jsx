@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './Finishes.css'; // Ensure this CSS file contains the styles
 import { Link } from 'react-router-dom';
+import { Element } from 'react-scroll';
+
 
 const Finishes = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -53,6 +55,7 @@ const Finishes = () => {
     });
 
     return (
+    <Element name="productpage" className="section">
         <section className="finish">
         <div class="process-details">
             {/* <!-- title  --> */}
@@ -90,6 +93,7 @@ const Finishes = () => {
                 </div>
             </div>
         </section>
+        </Element>
     );
 };
 
