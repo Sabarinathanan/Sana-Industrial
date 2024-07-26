@@ -1,0 +1,51 @@
+  /* process details  */
+  .process-method{
+    position: relative;
+    padding: 0 0 2rem 0;
+}
+.process-details{
+    text-align: center;
+}
+.process-icon-paint{
+    text-align: center;
+    margin: 20px 0;
+    i{
+        position: relative;
+        z-index: 999;
+        background-color: black;
+        color: red;
+        padding:  10px;
+        border-radius: 50%;
+    }
+}
+.process-icon{
+    background-color: rgba(225, 215, 225, 0);
+    color: red;
+    width: 4vw;
+    height: 8vh;
+    margin-left:15px ;
+    padding-top: 10px;
+    border-radius: 50%;
+    i{
+        padding-bottom: 10px;
+    }
+}
+.process{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    padding-top: 1rem;
+    .process-step{
+        border: 2px dotted black;
+        padding: 20px;
+        width: 10vw;
+        height: 27vh;
+        text-align: center;
+        background-image: linear-gradient(to bottom,rgba(227, 219, 194, 0.453),rgb(242, 210, 210));
+    }
+}
+.process-description{
+    padding-top: 2px;
+    font-weight: bold;
+    font-style: italic;
+}

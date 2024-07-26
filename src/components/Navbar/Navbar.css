@@ -1,0 +1,77 @@
+.background{
+    background-image:linear-gradient(to bottom,black,rgb(148, 102, 102, 0.781),white);
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    z-index: -999;
+}
+.whatsapp{
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    z-index: 1000;
+    background-color: rgb(81, 181, 81);
+    color: black;
+    padding: 4px 6px 6px 7px;
+    border-radius: 50%;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    list-style: none;
+    margin: 3px 0 3px 0;
+    color: white;
+    border-radius: 10px;
+    z-index: 10000;
+    background-color:#07306e;
+    border: 1px solid white;
+    transition: all 0.5s linear;
+}
+.navbar-sticky {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    background-color: #033682;
+    border-radius: 0;
+    height: 8vh;
+    border: 0;
+}
+.nav-logo {
+    width: 20vw;
+    padding-left: 20px;
+}
+
+.nav-details {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vw;
+    margin-top: 5px;
+}
+
+.nav-details a {
+    color: white;
+    text-decoration: none;
+    margin-top: -5px;
+}
+
+.nav-icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 10vw;
+}
+
+.nav-icons i {
+    padding-right: 10px;
+}
+
+
+.contact{
+    margin-bottom: 5px;
+    a{
+        color: yellow;
+    }
+}

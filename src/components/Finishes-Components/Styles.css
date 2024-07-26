@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20240102/pngtree-colorful-holi-powder-scattered-on-a-textured-background-image_13854102.png');
+    background-repeat: no-repeat;
+    background-size: 100vw ;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.bg{
+        background-image:linear-gradient(to top,black,rgb(148, 102, 102, 0.781));
+
+    padding: 16px 20px;
+    a{
+        color: white;
+    }
+}
+.background{
+    background-image:linear-gradient(to bottom,black,rgb(148, 102, 102, 0.781),white);
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    z-index: -999;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 70px;
+    /* height: 40px; */
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    div{
+        width: 200px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        text-align: center;
+        margin-top: 1px;
+        a{
+            text-decoration: none;
+        }
+    }
+}
+
+a{
+    color: black;
+}
+.colors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.color-card {
+    background-color: #000;
+    color: white;
+    margin: 10px;
+    width: 200px;
+    height: 280px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .selected-color {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+
+.color-card .img-card {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+.color-card .info {
+    margin-top: 10px;
+}
+
+.color-card .info h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.color-card .info p {
+    margin: 5px 0 0 0;
+    color: #888;
+}
