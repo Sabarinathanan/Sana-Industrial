@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import './Contact.css'; // Assuming you have saved your CSS in Contact.css
+import { Element } from 'react-scroll';
 
 const Contact = () => {
   useEffect(() => {
@@ -31,6 +32,7 @@ const Contact = () => {
   }, []);
 
   return (
+    <Element name="contactpage" className="section">
     <section className="contact">
          <div class="process-details">
         {/* <!-- title  --> */}
@@ -115,6 +117,7 @@ const Contact = () => {
         </div>
       </div>
     </section>
+    </Element>
   );
 };
 
