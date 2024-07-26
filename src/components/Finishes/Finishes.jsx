@@ -19,7 +19,7 @@ const Finishes = () => {
             text: "Semi-gloss"
         },
         {
-            href: "/Structural",
+            href: "/Structure",
             imgSrc: "https://th.bing.com/th/id/OIP.1aYME-U4wAgu0XbYiyUImwHaHa?pid=ImgDet&w=179&h=179&c=7&dpr=1.3",
             alt: "Structure",
             text: "Structure"
@@ -61,8 +61,7 @@ const Finishes = () => {
             </h2>
             {/* <!-- description  --> */}
             <p class="process-title-description">
-                Our work process is designed to provide you with a
-                stress-free painting experience, from start to finish.
+            Our techniques and finishes ensure durable and aesthetically pleasing results.
             </p>
         </div>
         {/* <!-- icon  --> */}
