@@ -2,100 +2,54 @@ import '../Process-Method/Process.css'
 function Process() {
     return (
         <>
-            {/* process */}
             <section className="process-method">
-                <div class="process-details">
-                    {/* <!-- title  --> */}
-                    <h2 class="process-title">
+                <div className="process-details">
+                    <h2 className="process-title">
                         <span> Our Work Process </span>
                     </h2>
-                    {/* <!-- description  --> */}
-                    <p class="process-title-description">
+                    <p className="process-title-description">
                         Our work process is designed to provide you with a
                         stress-free painting experience, from start to finish.
                     </p>
                 </div>
-                {/* <!-- icon  --> */}
-                <div class="process-icon-paint">
-                    <i aria-hidden="true" class="fas fa-spin-pulse fa-paint-roller"></i>
+                <div className="process-icon-paint">
+                    <i aria-hidden="true" className="fas fa-spin-pulse fa-paint-roller"></i>
                 </div>
-                <hr class="hr"/>
-                    {/* process  */}
-                    <div className="process">
-                        {/* 1 */}
-                        <div className="process-step">
-                            <div className="process-icon">
-                                <span>
-                                    <i className="fa-solid fa-xl fa-broom" />
-                                </span>
-                            </div>
-                            <div className="process-content">
-                                <div className="process-steps">
-                                    <span> Step 1 </span>
+                <hr className="hr"/>
+                <div className="process">
+                    {[
+    { step: "Step 1", description: "Cleaning", icon: "fa-broom", backText: "Rusting\nand more" },
+    { step: "Step 2", description: "Powder Coating", icon: "fa-brush", backText: "Precision coating\nfor durability" },
+    { step: "Step 3", description: "Heating", icon: "fa-fire-flame-curved", backText: "Oven method\nfor optimal results" },
+    { step: "Step 4", description: "Quality Checking", icon: "fa-circle-check", backText: "Thorough inspection\nfor quality" },
+    { step: "Step 5", description: "Packing", icon: "fa-boxes-packing", backText: "Secure packing\nfor safe delivery" }
+].map((item, index) => (
+                        <div key={index} className="process-step">
+                            <div className="process-card">
+                                <div className="process-front">
+                                    <div className="process-icon">
+                                        <span>
+                                            <i className={`fa-solid fa-xl ${item.icon}`} />
+                                        </span>
+                                    </div>
+                                    <div className="process-content">
+                                        <div className="process-steps">
+                                            <span>{item.step}</span>
+                                        </div>
+                                        <p className="process-description">{item.description}</p>
+                                    </div>
                                 </div>
-                                <p className="process-description">Cleaning</p>
+                                <div className="process-back">
+                                    <p>{item.backText.split('\n').map((line, i) => (
+                                        <span key={i}>{line}<br/></span>
+                                    ))}</p>
+                                </div>
                             </div>
                         </div>
-                        {/* 2 */}
-                        <div className="process-step">
-                            <div className="process-icon">
-                                <span>
-                                    <i className="fa-solid fa-xl fa-brush" />
-                                </span>
-                            </div>
-                            <div className="process-content">
-                                <div className="process-steps">
-                                    <span> Step 2 </span>
-                                </div>
-                                <p className="process-description">Powder Coating</p>
-                            </div>
-                        </div>
-                        {/* 3 */}
-                        <div className="process-step">
-                            <div className="process-icon">
-                                <span>
-                                    <i className="fa-solid fa-xl fa-fire-flame-curved" />
-                                </span>
-                            </div>
-                            <div className="process-content">
-                                <div className="process-steps">
-                                    <span> Step 3 </span>
-                                </div>
-                                <p className="process-description">Heating</p>
-                            </div>
-                        </div>
-                        {/* 4 */}
-                        <div className="process-step">
-                            <div className="process-icon">
-                                <span>
-                                    <i className="fa-solid fa-xl fa-circle-check" />
-                                </span>
-                            </div>
-                            <div className="process-content">
-                                <div className="process-steps">
-                                    <span> Step 4 </span>
-                                </div>
-                                <p className="process-description">Quality Checking</p>
-                            </div>
-                        </div>
-                        {/* 5 */}
-                        <div className="process-step">
-                            <div className="process-icon">
-                                <span>
-                                    <i className="fa-solid fa-xl fa-boxes-packing" />
-                                </span>
-                            </div>
-                            <div className="process-content">
-                                <div className="process-steps">
-                                    <span> Step 5 </span>
-                                </div>
-                                <p className="process-description">Packing</p>
-                            </div>
-                        </div>
-                    </div>
+                    ))}
+                </div>
             </section>
         </>
-
     );
 }
 
