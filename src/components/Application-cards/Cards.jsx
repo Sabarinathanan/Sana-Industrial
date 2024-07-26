@@ -11,8 +11,7 @@ function Cards() {
             </h2>
             {/* <!-- description  --> */}
             <p class="process-title-description">
-                Our work process is designed to provide you with a
-                stress-free painting experience, from start to finish.
+            We cater to a wide range of surfaces and environments, ensuring versatility and precision.
             </p>
         </div>
         {/* <!-- icon  --> */}
