@@ -1,4 +1,7 @@
-import '../Navbar/Navbar.css'
+import React from 'react';
+import { Link, animateScroll as scroll } from 'react-scroll';
+import '../Navbar/Navbar.css';
+
 function Navbar() {
   return (
     <>
@@ -9,25 +12,53 @@ function Navbar() {
       {/* nav  */}
       <nav>
         <div className="nav-logo">
-          <img src="./Sana logo (1).jpg" width="50px" alt="" />
+          <img src='/logo.jpeg' width="50px" alt="" />
           SaNa Industrial
         </div>
-        <div className="nav-details ">
+        <div className="nav-details">
           <div>
-            <a href="#">Home</a>
+            <Link
+              to="homepage"
+              smooth={true}
+              duration={100}
+              offset={-70} // Adjust offset to account for fixed navbar height
+            >
+              Home
+            </Link>
           </div>
           <div>
-            <a href="#">About</a>
+            <Link
+              to="aboutpage"
+              smooth={true}
+              duration={100}
+              offset={-70}
+            >
+              About
+            </Link>
           </div>
           <div>
-            <a href="#">Product</a>
+            <Link
+              to="productpage"
+              smooth={true}
+              duration={100}
+              offset={-70}
+            >
+              Product
+            </Link>
           </div>
           <div className="contact">
-            <a href="#" className="btn btn-outline-warning btn-sm">
+            <Link
+              to="contactpage"
+              smooth={true}
+              duration={100}
+              offset={-70}
+              className="btn btn-outline-warning btn-sm"
+            >
               Contact Us
-            </a>
+            </Link>
           </div>
         </div>
+
         <div className="nav-icons">
           <div>
             <a href="https://maps.app.goo.gl/7xVARwt2TiH7cwTC9" target='_blank'><i class="fa-solid fa-location-dot fa-md"/></a>
