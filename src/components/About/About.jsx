@@ -1,6 +1,10 @@
 import "../About/About.css";
+import { Element } from 'react-scroll';
+
 function About() {
   return (
+    <Element name="aboutpage" className="section">
+
     <section className="about-us">
       <div className="process-details">
         {/* title  */}
@@ -46,6 +50,7 @@ function About() {
         </div>
       </div>
     </section>
+    </Element>
   );
 }
 
