@@ -9,8 +9,7 @@ function About() {
         </h2>
         {/* description  */}
         <p className="process-title-description">
-          Our work process is designed to provide you with a stress-free
-          painting experience, from start to finish.
+        We are committed to delivering high-quality painting services tailored to your needs.
         </p>
       </div>
       {/* icon  */}
