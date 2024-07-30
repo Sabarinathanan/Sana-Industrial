@@ -52,10 +52,14 @@ const MattColors = () => {
       </header>
 
       <section className="filters">
+      <div>
+          <Link to="/"><i class="fa-solid fa-house"></i></Link>
+        </div>
+        <div className="materials">
         <div>
           <Link to="/Glossy">Glossy</Link>
         </div>
-        <div>
+        <div >
           <Link to="/SemiGlossy">Semi-gloss</Link>
         </div>
         <div >
@@ -67,8 +71,9 @@ const MattColors = () => {
         <div>
           <Link to="/Texture">Texture</Link>
         </div>
-        <div  className="bg">
+        <div className="bg">
           <Link to="/Matt">Matt</Link>
+        </div>
         </div>
       </section>
 
