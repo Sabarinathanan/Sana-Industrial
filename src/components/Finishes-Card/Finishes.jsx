@@ -9,14 +9,14 @@ const cardsArray = [
         href: "/Glossy",
         imgSrc: "https://cdn.shopify.com/s/files/1/0554/2078/0622/files/Powder-Coating-Training.jpg",
         alt: "Full gloss",
-        title: "Full gloss"
+        title: "Glossy"
     },
     {
         id:2,
         href: "/Semiglossy",
         imgSrc: "https://image.made-in-china.com/2f0j00ghiYCQEtmaoZ/Coat-Furniture-Satin-Semi-Gloss-Finish-Red-Powder-Coating-Paint.jpg",
         alt: "Semi-gloss",
-        title: "Semi-gloss"
+        title: "Semi-glossy"
     },
     {
         id:3,
