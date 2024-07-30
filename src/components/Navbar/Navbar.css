@@ -14,28 +14,28 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 10vh;
-    width: 100vw;
+    height: 8vh;
+    width: 99vw;
     list-style: none;
     /* margin: 3px 0 3px 0; */
-    color: white;
-    border-radius: 10px;
+    color: var(--nav-text-color);
+    border-radius: 15px;
     z-index: 10000;
     background-color:var(--nav-color);
-    border: 1px solid white;
+    border: 1px solid var(--nav-text-color);
+    margin: 2px 2px ;
     transition: all 0.5s linear;
 }
-.navbar-sticky {
+/* .navbar-sticky {
     position: -webkit-sticky;
     position: sticky;
-    
     top: 0;
     width: 100vw;
     background-color: #033682;
     border-radius: 0;
     height: 8vh;
     border: 0;
-}
+} */
 .nav-logo {
     width: 20vw;
     padding-left: 20px;
@@ -51,7 +51,7 @@ nav {
 .nav-details {
     display: flex;
     justify-content: space-evenly;
-    width: 40vw;
+    width: 50vw;
     margin-top: 5px;
 }
 
@@ -59,14 +59,18 @@ nav {
     color: white;
     text-decoration: none;
     margin-top: -5px;
+    padding: 5px;
+    transition: all 0.1s linear;
 }
-
+.nav-details a:hover{
+    border-bottom: 3px solid #033682;
+}
 .nav-icons {
     display: flex;
     justify-content: space-evenly;
     width: 10vw;
     a{
-        color: white;
+        color: var(--nav-text-color);
     }
 }
 
@@ -77,5 +81,11 @@ nav {
 
 .contact{
     margin-bottom: 5px;
-
+    a{
+        color: var(--nav-text-color);
+        
+        &:hover{
+            border-bottom: 0;
+        }
+    }
 }
