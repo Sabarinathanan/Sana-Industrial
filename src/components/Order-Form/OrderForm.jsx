@@ -10,7 +10,7 @@ const PopupForm = ({ selectedColor, selectedColorName, onClose }) => {
           Selected Color: <span style={{ backgroundColor: selectedColor }} className="selected-color"></span>
           <span>{selectedColorName}</span>
         </p>
-        <form id="order-form" className="order-form">
+        <form id="order-form" className="order-form" action="https://getform.io/f/bnleknyb" method="POST">
           <label htmlFor="company-name">Company Name:</label>
           <input type="text" id="company-name" placeholder="Enter company name" required />
 
