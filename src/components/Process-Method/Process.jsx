@@ -8,7 +8,7 @@ function Process() {
                         <span> Our Work Process </span>
                     </h2>
                     <p className="process-title-description">
-                        Our work process is designed to provide you with a
+                        Our work process is designed to provide you <br /> with a
                         stress-free painting experience, from start to finish.
                     </p>
                 </div>
