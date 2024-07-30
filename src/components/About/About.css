@@ -1,3 +1,4 @@
+
 /* about  */
 .about-us{
     position: relative;
@@ -14,7 +15,8 @@
   }
   .about-right{
       color: white;
-      background-image: linear-gradient(to right,rgba(255, 0, 0, 0.571),rgba(0, 0, 0, 0.808));
+      /* background-image: linear-gradient(to right,rgba(255, 0, 0, 0.571),rgba(0, 0, 0, 0.808)); */
+      background-color: var(--about-bg);
   }
   .about-left{
       background-color: white;
@@ -28,12 +30,15 @@
       height: 100%;
       h2{
           padding: 18px 0 10px 0;
-          color: black;
+          color: var(--about-title);
       }
       h6{
-          i{
+        font-size: large;
+        font-weight: 400;
+        line-height: normal;
+          span{
               color: yellow;
-              font-size: 20px;
+              padding-right: 3px;
           }
       }
   }
