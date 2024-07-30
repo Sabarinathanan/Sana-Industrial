@@ -35,15 +35,19 @@ header h1 {
     /* height: 40px; */
     background-color: #CDE8E5;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    div{
-        width: 200px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        text-align: center;
-        margin-top: 1px;
-        a{
-            text-decoration: none;
-            padding: 10px 60px;
+    .materials{
+        display: flex;
+        div{
+            width: 200px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            text-align: center;
+            margin-top: 1px;
+            padding-top: 10px;
+            a{
+                text-decoration: none;
+                padding: 0 40px;
+            }
         }
     }
 }
