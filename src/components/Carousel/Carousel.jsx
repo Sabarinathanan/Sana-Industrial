@@ -36,9 +36,9 @@ function Carousel() {
           <img
             src="./asset/carousel/carousel 1.jpeg"
             className="d-block w-100  c-img"
-            alt="Slide 1" style={{opacity:"0.9"}}
+            alt="Slide 1" style={{opacity:"0.95"}}
           />
-          <div className="carousel-caption top-0 mt-4">
+          <div className="carousel-caption top-0 mt-5">
             {/* <p class="mt-5 fs-3 text-uppercase">Discover the hidden world</p> */}
             <h1 className="display-1 text-capitalize carousel-text text-warning">
               Your vision, our coating
@@ -54,9 +54,9 @@ function Carousel() {
           <img
             src="./asset/carousel/carousel 3.jpeg"
             className="d-block w-100  c-img"
-            alt="Slide 3" style={{opacity:"0.9"}}
+            alt="Slide 3" style={{opacity:"0.95"}}
           />
-          <div className="carousel-caption top-0 mt-1">
+          <div className="carousel-caption top-0 mt-1" >
             {/* <p class="text-uppercase fs-3 mt-5">Destination activities</p> */}
             <h1 className="display-1 text-capitalize carousel-text text-warning">
               Coating your dreams into reality
@@ -73,9 +73,9 @@ function Carousel() {
           <img
             src="./asset/carousel/carousel 2.jpeg"
             className="d-block w-100  c-img"
-            alt="Slide 2" style={{opacity:"0.9"}}
+            alt="Slide 2" style={{opacity:"0.95"}}
           />
-          <div className="carousel-caption top-0 mt-1">
+          <div className="carousel-caption top-0 mt-4">
             {/* <p class="text-uppercase fs-3 mt-5">The season has arrived</p> */}
             <h1 className="display-1 text-capitalize carousel-text text-warning ">
               Your creativity, <br />
