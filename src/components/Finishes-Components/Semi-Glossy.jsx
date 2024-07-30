@@ -48,6 +48,10 @@ const SemiGlossyColors = () => {
       </header>
 
       <section className="filters">
+      <div>
+          <Link to="/"><i class="fa-solid fa-house"></i></Link>
+        </div>
+        <div className="materials">
         <div>
           <Link to="/Glossy">Glossy</Link>
         </div>
@@ -65,6 +69,7 @@ const SemiGlossyColors = () => {
         </div>
         <div >
           <Link to="/Matt">Matt</Link>
+        </div>
         </div>
       </section>
 
