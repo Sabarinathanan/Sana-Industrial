@@ -30,12 +30,11 @@ function About() {
           <div className=" about">
             <h2 className="ceo-title"> About Us </h2>
             <h6>
-              {" "}
-              <strong>
-                <i>Sana Industrial</i> was established in 2019 and are leading
+              <>
+                <span>Sana Industrial </span> was established in 2019 and are leading
                 manufacturers of Powder Coating Material, High Performance
                 Coating and Speciality Chemicals.{" "}
-              </strong>
+              </>
             </h6>
             <p>
               Since its inception SANA COAT has served most durable, reliable,
