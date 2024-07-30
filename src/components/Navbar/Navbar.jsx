@@ -13,7 +13,7 @@ function Navbar() {
       <nav>
         <div className="nav-logo">
           <img src='/logo.png' width="50px" alt="" />
-          <span>SANA INDUSTRY</span>
+          <span>SANA INDUSTRIES</span>
         </div>
         <div className="nav-details">
           <div>
