@@ -1,13 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
-.background{
-    background-image:linear-gradient(to bottom,black,rgb(148, 102, 102, 0.781),white);
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    top: 0;
-    z-index: -999;
-}
 .whatsapp{
     position: fixed;
     bottom: 30px;
@@ -25,16 +17,18 @@ nav {
     height: 10vh;
     width: 100vw;
     list-style: none;
-    margin: 3px 0 3px 0;
+    /* margin: 3px 0 3px 0; */
     color: white;
     border-radius: 10px;
     z-index: 10000;
-    background-color:#07306e;
+    background-color:var(--nav-color);
     border: 1px solid white;
     transition: all 0.5s linear;
 }
 .navbar-sticky {
+    position: -webkit-sticky;
     position: sticky;
+    
     top: 0;
     width: 100vw;
     background-color: #033682;
