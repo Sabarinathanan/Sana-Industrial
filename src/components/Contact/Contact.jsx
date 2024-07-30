@@ -97,7 +97,7 @@ const Contact = () => {
             <div className="contact-form">
               <span className="circle one" />
               <span className="circle two" />
-              <form action="index.html" autoComplete="off">
+              <form action="https://getform.io/f/bnleknyb" method="POST" autoComplete="off">
                 <h3 className="title">Contact us</h3>
                 <div className="input-container">
                   <input type="text" name="name" className="input" />
