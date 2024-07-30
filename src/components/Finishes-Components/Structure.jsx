@@ -48,6 +48,10 @@ const StructureColors = () => {
       </header>
 
       <section className="filters">
+      <div>
+          <Link to="/"><i class="fa-solid fa-house"></i></Link>
+        </div>
+        <div className="materials">
         <div>
           <Link to="/Glossy">Glossy</Link>
         </div>
@@ -60,11 +64,12 @@ const StructureColors = () => {
         <div className="bg">
           <Link to="/Structure">Structure</Link>
         </div>
-        <div   >
+        <div>
           <Link to="/Texture">Texture</Link>
         </div>
         <div >
           <Link to="/Matt">Matt</Link>
+        </div>
         </div>
       </section>
 
