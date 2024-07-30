@@ -9,6 +9,9 @@ import TextureColors from './components/Finishes-Components/Texture.jsx';
 import Home from './components/Home/Home.jsx';
 import Cards from './components/Application-cards/Cards.jsx';
 import SatinColors from './components/Finishes-Components/Satin.jsx';
+import About from './components/About/About.jsx';
+import Finishes from './components/Finishes-Card/Finishes.jsx';
+import Contact from './components/Contact/Contact.jsx';
 
 
 function App() {
@@ -17,6 +20,9 @@ function App() {
        <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>}></Route>
+          <Route path='/about' element={<About/>}></Route>
+          <Route path='/product' element={<Finishes/>}></Route>
+          <Route path='/contact' element={<Contact/>}></Route>
           <Route path='/cards' element={<Cards/>}></Route>
           <Route path="/Glossy" element={<GlossyColors />} />
           <Route path="/Matt" element={<MattColors />} />
