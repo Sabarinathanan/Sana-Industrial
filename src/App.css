@@ -92,7 +92,7 @@ body{
         /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
         padding: 20px;
         width: 15vw;
-        height: 40vh;
+        /* height: 40vh; */
         text-align: center;
         /* background-image: linear-gradient(to bottom,rgba(227, 219, 194, 0.453),rgb(242, 210, 210)); */
         background-color: var(--process-card-bg);
@@ -143,7 +143,7 @@ body{
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .process-title{
         font-size: 14px;
         position: absolute;
@@ -166,5 +166,9 @@ body{
     .hr1{
         display: none;
     }
-    
+    .process {
+        .process-step {
+            width: 20vh;
+        }
+      }
 }
