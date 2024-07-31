@@ -6,7 +6,7 @@ function Cards() {
       <section className="container-application">
         <div class="process-details">
           {/* <!-- title  --> */}
-          <h2 class="process-title">
+          <h2 class="process-title application-title">
             <span>Application Area</span>
           </h2>
           {/* <!-- description  --> */}
@@ -16,7 +16,7 @@ function Cards() {
           </p>
         </div>
         {/* <!-- icon  --> */}
-        <div class="process-icon-paint">
+        <div class="process-icon-paint application-icon">
           <i class="fa-solid fa-angles-down fa-bounce"></i>
         </div>
         <hr class="hr2" />
