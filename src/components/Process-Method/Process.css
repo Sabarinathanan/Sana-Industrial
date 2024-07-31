@@ -90,10 +90,16 @@
       }
       .process {
         .process-height {
-            width: 20vh;
+          width: 8vh;
+          height: 15vh;
         }
       }
-      
+      .process-back{
+        display: none;
+      }
+      .process-description + p{
+        display: none;
+      }
       .process-step.active {
         width: 25vw;
         margin: 0 5px;
