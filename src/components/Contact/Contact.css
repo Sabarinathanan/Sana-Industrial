@@ -405,7 +405,7 @@ textarea.input {
   .form {
     width: 90vw;
     position: relative;
-    height: 95vh;
+    height: 70vh;
     display: block;
     display: flex;
     flex-direction: column-reverse;
