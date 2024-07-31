@@ -189,5 +189,10 @@
         right: 100px;
         top: -10px;
       }
+      .card__data {
+        width: 100px;
+        padding: 2px 0;
+        text-align: center;
+    }
     }
   
