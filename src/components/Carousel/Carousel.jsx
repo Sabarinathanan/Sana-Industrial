@@ -38,12 +38,12 @@ function Carousel() {
             className="d-block w-100  c-img"
             alt="Slide 1" style={{opacity:"0.95"}}
           />
-          <div className="carousel-caption top-0 mt-5">
+          <div className="carousel-caption top-0 mt-md-5">
             {/* <p class="mt-5 fs-3 text-uppercase">Discover the hidden world</p> */}
             <h1 className="display-1 text-capitalize carousel-text text-warning">
               Your vision, our coating
             </h1>
-            <p className="" style={{ fontSize: 26 }}>
+            <p className="carousel-para">
               {" "}
               turning ideas into enduring surfaces.
             </p>
@@ -56,12 +56,12 @@ function Carousel() {
             className="d-block w-100  c-img"
             alt="Slide 3" style={{opacity:"0.95"}}
           />
-          <div className="carousel-caption top-0 mt-1" >
+          <div className="carousel-caption top-0 mt-md-1" >
             {/* <p class="text-uppercase fs-3 mt-5">Destination activities</p> */}
             <h1 className="display-1 text-capitalize carousel-text text-warning">
               Coating your dreams into reality
             </h1>
-            <p className="" style={{ fontSize: 26 }}>
+            <p className="carousel-para">
               {" "}
               powder coating with precision
             </p>
@@ -75,13 +75,13 @@ function Carousel() {
             className="d-block w-100  c-img"
             alt="Slide 2" style={{opacity:"0.95"}}
           />
-          <div className="carousel-caption top-0 mt-4">
+          <div className="carousel-caption top-0 mt-md-4">
             {/* <p class="text-uppercase fs-3 mt-5">The season has arrived</p> */}
             <h1 className="display-1 text-capitalize carousel-text text-warning ">
               Your creativity, <br />
               our coating
             </h1>
-            <p className="" style={{ fontSize: 26 }}>
+            <p className="carousel-para">
               {" "}
               lasting protection and style
             </p>
