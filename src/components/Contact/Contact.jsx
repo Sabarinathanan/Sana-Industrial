@@ -99,22 +99,22 @@ const Contact = () => {
               <form action="https://getform.io/f/bnleknyb" method="POST" autoComplete="off">
                 <h3 className="title">Contact us</h3>
                 <div className="input-container">
-                  <input type="text" name="name" className="input" />
+                  <input type="text" name="name" className="input" required/>
                   <label htmlFor="name">Fullname</label>
                   <span>Fullname</span>
                 </div>
                 <div className="input-container">
-                  <input type="email" name="email" className="input" />
+                  <input type="email" name="email" className="input" required/>
                   <label htmlFor="email">Email</label>
                   <span>Email</span>
                 </div>
                 <div className="input-container">
-                  <input type="tel" name="phone" className="input" />
+                  <input type="tel" name="phone" className="input" required/>
                   <label htmlFor="phone">Phone</label>
                   <span>Phone</span>
                 </div>
                 <div className="input-container textarea">
-                  <textarea name="message" className="input" />
+                  <textarea name="message" className="input" required/>
                   <label htmlFor="message">Message</label>
                   <span>Message</span>
                 </div>
