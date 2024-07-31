@@ -42,3 +42,31 @@
           }
       }
   }
+
+  @media (max-width: 768px) {
+    .about-us {
+        position: relative;
+        padding: 2rem 0;
+    }
+    .about-left{
+        display: none;
+    }
+    .about{
+        padding: 0px 35px;
+        h2{
+            padding: 10px 0 10px 0;
+        }
+        h6{
+            font-size: 18px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    .knowmore {
+        margin-bottom: 10px;
+    }
+    .home-about {
+        margin: 0 20px;
+    }
+}
