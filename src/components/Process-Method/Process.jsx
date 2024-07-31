@@ -30,7 +30,7 @@ function Process() {
         {steps.map((item, index) => (
           <div
             key={index}
-            className={`process-step ${activeStep === index ? 'active' : ''}`}
+            className={`process-step ${activeStep === index ? 'active' : ''} process-height` }
             onClick={() => setActiveStep(index === activeStep ? null : index)}
           >
             <div className="process-card">
@@ -43,7 +43,7 @@ function Process() {
               </div>
               <div className={`process-back ${activeStep === index ? 'visible' : ''}`}>
                 <div className="process-content">
-                  <div className="process-steps">
+                  <div className="process-steps ">
                     <span>{item.step}</span>
                   </div>
                   <p className="process-description">{item.description}</p>
