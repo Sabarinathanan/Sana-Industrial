@@ -79,7 +79,7 @@ const GlossyColors = () => {
 
       <section className="filters">
       <div>
-          <Link to="/"><i class="fa-solid fa-house"></i></Link>
+          <Link to="/"><i class="fa-solid fa-house"></i><span>Home</span></Link>
         </div>
         <div className="materials">
         <div className="bg">
