@@ -103,5 +103,52 @@
 
 .order-form button + button {
   margin-left: 10px;
-}
 
+}
+.fa-house + span{
+    display: none;
+}
+@media (max-width:768px){
+  .popup-content {
+    background: white;
+    /* padding: 20px; */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* width: 100vw; */
+    max-width: 90%;
+    max-height: 95vh;
+}
+.order-form input[type="text"],
+.order-form input[type="number"],
+.order-form input[type="file"],
+.order-form input[type="email"],
+.order-form select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.order-form {
+  top: -40px;
+  button{
+    width: 100px;
+    padding: 5px 0;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+}
+.popup-content p {
+  text-align: center;
+  margin-bottom: 0px;
+}
+form{
+  padding: 1.5rem 2.2rem 0 8px;
+}
+.flex{
+  padding-top: 10px;
+  .close-btn{
+    position: unset;
+  }
+}
+}
