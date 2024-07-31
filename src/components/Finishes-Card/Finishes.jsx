@@ -57,16 +57,16 @@ const Finishes = () => {
         <section className="finish">
         <div class="process-details">
             {/* <!-- title  --> */}
-            <h2 class="process-title">
+            <h2 class="process-title finish-title">
                 <span> Finish and Methods </span>
             </h2>
             {/* <!-- description  --> */}
-            <p class="process-title-description">
+            <p class="process-title-description ">
             Our techniques and finishes ensure durable and aesthetically pleasing results.
             </p>
         </div>
         {/* <!-- icon  --> */}
-        <div class="process-icon-paint">
+        <div class="process-icon-paint finish-icon">
             <i class="fa-solid fa-check-to-slot fa-shake"></i>
         </div>
         <hr class="hr1"></hr>
