@@ -81,3 +81,32 @@ body {
     width: 31vw;
     height: 300px;
 }
+
+@media (max-width: 768px) {
+    .finish{
+        margin: 0;
+    }
+    .finish-title {
+            left: 60px;
+            top: 30px;
+    }
+    .finish-icon{
+        right:83px;
+    }
+    .card-1, .card-4, .card-5,.card-2, .card-3, .card-6 {
+        width: 101vw;
+        height: 100px;
+    }
+    .services{
+        margin: 0px;
+        a{
+            margin: -2px;
+        }
+    }
+    .service-card {
+        margin: 0 0px;
+        h2{
+            font-size: 14px;
+        }
+    }
+}
