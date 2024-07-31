@@ -265,6 +265,9 @@ textarea.input {
 .social-icons {
   display: flex;
   margin-top: 0.5rem;
+  width: 20vw;
+    justify-content: space-around;
+    padding-top: 5px;
 }
 
 .social-icons a {
