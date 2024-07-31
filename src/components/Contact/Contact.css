@@ -17,6 +17,7 @@ textarea {
   align-items: center;
   justify-content: center;
   background-image: url("https://yarbroughindustries.com/wp-content/uploads/2020/11/AdobeStock_283496421-scaled.jpeg ");
+  background-repeat: no-repeat;
 }
 
 .form {
