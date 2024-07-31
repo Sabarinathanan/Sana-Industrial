@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import '../Navbar/Navbar.css';
 
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => setIsOpen(!isOpen);
+
   return (
     <>
       <div className="background" />
@@ -15,7 +19,8 @@ function Navbar() {
           <img src='/logo.png' width="50px" alt="" />
           <span>SANA INDUSTRIES</span>
         </div>
-        <div className="nav-details">
+        <div className={`nav-details ${isOpen ? 'open' : ''}`}>
+          <button className="close-btn" onClick={toggleMenu}>X</button>
           <div>
             <Link
               to="homepage"
@@ -61,14 +66,18 @@ function Navbar() {
 
         <div className="nav-icons">
           <div>
-            <a href="https://maps.app.goo.gl/7xVARwt2TiH7cwTC9" target='_blank'><i class="fa-solid fa-location-dot fa-md"/></a>
+            <a href="https://maps.app.goo.gl/7xVARwt2TiH7cwTC9" target='_blank' rel='noopener noreferrer'><i className="fa-solid fa-location-dot fa-md"/></a>
           </div>
           <div>
-            <a href="mailto:sanaindustries2k19@gmail.com" target='_blank'><i className="fa-solid fa-envelope fa-md"/></a>
+            <a href="mailto:sanaindustries2k19@gmail.com" target='_blank' rel='noopener noreferrer'><i className="fa-solid fa-envelope fa-md"/></a>
           </div>
           <div>
-            <a href="https://www.instagram.com/sana.industries?igsh=MTU4N2cyOGk1c3ZyNQ%3D%3D&utm_source=qr" target='_blank'><i className="fa-brands fa-instagram fa-md"/></a>
+            <a href="https://www.instagram.com/sana.industries?igsh=MTU4N2cyOGk1c3ZyNQ%3D%3D&utm_source=qr" target='_blank' rel='noopener noreferrer'><i className="fa-brands fa-instagram fa-md"/></a>
           </div>
+        </div>
+
+        <div className="hamburger" onClick={toggleMenu}>
+          <i className="fa-solid fa-bars"></i>
         </div>
       </nav>
     </>
