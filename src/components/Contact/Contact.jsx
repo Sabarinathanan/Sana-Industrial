@@ -36,22 +36,21 @@ const Contact = () => {
       <section className="contact">
         <div class="process-details">
           {/* <!-- title  --> */}
-          <h2 class="process-title">
+          <h2 class="process-title contact-heading">
             <span>Contact Us</span>
           </h2>
           {/* <!-- description  --> */}
-          <p class="process-title-description">
+          <p class="process-title-description contact-description">
             Reach out to us for consultations, quotes, or any inquiries you may
             have.
           </p>
         </div>
         {/* <!-- icon  --> */}
-        <div class="process-icon-paint">
+        <div class="process-icon-paint contact-icon">
           <i class="fa-solid fa-address-book fa-beat"></i>
         </div>
         <hr class="hr3"></hr>
         <div className="container-contact">
-          <img src="img/shape.png" className="square" alt="" />
           <div className="form">
             <div className="contact-info">
               <div className="info">
