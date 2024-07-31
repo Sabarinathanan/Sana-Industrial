@@ -461,6 +461,7 @@ textarea.input {
   .contact-form{
     position: absolute;
     top: 0;
+    height: 70vh;
   }
 
 }
