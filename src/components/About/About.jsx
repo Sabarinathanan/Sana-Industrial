@@ -42,7 +42,7 @@ function About() {
               vast knowledge of powder coating, strong R&amp;D team and world
               class quality control lab.
             </p>
-            <a href="about.html" className="btn btn-primary" role="button">
+            <a href="about.html" className="btn btn-primary knowmore" role="button">
               KNOW MORE
             </a>
           </div>
