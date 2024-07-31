@@ -3,7 +3,7 @@
     width: 100vw;
 }
 .c-item {
-    height: 89vh;
+    height: 92vh;
   }
   
   .c-img {
@@ -14,3 +14,23 @@
   .carousel-text{
     margin-top: 2em;
   }
+  .carousel-para{
+    font-size: 26px;
+  }
+@media (max-width:768px){
+  .c-item {
+    height: 40vh;
+  }
+  .carousel-text{
+    margin-top: 0;
+  }
+  .carousel-para{
+    font-size: 12px;
+  }
+  .carousel-caption{
+    h1{
+      font-size: 34px;
+      padding-top: 40px;
+    }
+  }
+}
