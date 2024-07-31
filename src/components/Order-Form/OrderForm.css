@@ -116,7 +116,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     /* width: 100vw; */
     max-width: 90%;
-    max-height: 95vh;
+    max-height: 52vh;
 }
 .order-form input[type="text"],
 .order-form input[type="number"],
@@ -137,6 +137,11 @@
     font-size: 14px;
     margin: 0 auto;
   }
+}
+.popup-content{
+  padding: 0;
+  padding-top: 10px;
+  background-color: #0056b3;
 }
 .popup-content p {
   text-align: center;
