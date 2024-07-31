@@ -46,10 +46,6 @@ body{
     top: 0;
     z-index: -999;
 }
-/* about-span  */
-h6{
-    
-}
 
 /* process  */
 .process-method{
@@ -145,4 +141,30 @@ h6{
         color: dodgerblue;
         font-size: 12px;
     }
+}
+
+@media (max-width: 768px) {
+    .process-title{
+        font-size: 14px;
+        position: absolute;
+        left: 120px;
+        top: 30px;
+    }
+    .process-title-description{
+        font-size: 9px;
+        margin: 40px 14px 20px;
+    }
+    .hr4{
+        display: none;
+    }
+    .process-icon-paint{
+        margin: 0;
+        position: absolute;
+        right: 130px;
+        top: 19px;
+    }
+    .hr1{
+        display: none;
+    }
+    
 }
