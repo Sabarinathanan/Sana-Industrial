@@ -64,7 +64,7 @@ nav {
 .nav-details a {
   color: white;
   text-decoration: none;
-  padding: 5px;
+  padding-top: 1px;
   transition: all 0.1s linear;
 }
 
