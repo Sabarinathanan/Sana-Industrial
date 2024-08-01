@@ -88,9 +88,10 @@
 
 .flex{
   display: flex;
-}
-.order-form button[type="button"] {
-  background-color: #007bff;
+  .order-form button[type="button"] {
+    background-color: #007bff;
+    position: unset;
+  }
 }
 
 .order-form button:hover {
@@ -111,12 +112,10 @@
 @media (max-width:768px){
   .popup-content {
     background: white;
-    /* padding: 20px; */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    /* width: 100vw; */
     max-width: 90%;
-    max-height: 56vh;
+    max-height: 52vh;
 }
 .order-form input[type="text"],
 .order-form input[type="number"],
