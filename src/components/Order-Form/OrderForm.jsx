@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './OrderForm.css'; // Import your CSS file for the popup if needed
+import './OrderForm.css';
 import axios from 'axios';
 
 const PopupForm = ({ selectedColor, selectedColorName, onClose }) => {
@@ -43,9 +43,10 @@ const PopupForm = ({ selectedColor, selectedColorName, onClose }) => {
           'Content-Type': 'multipart/form-data',
         },
       });
-      console.log(response.data);
+      console.log('Form submitted successfully:', response.data);
+      onClose(); // Close the popup after successful form submission
     } catch (error) {
-      console.error('Error submitting the form', error);
+      console.error('Error submitting the form:', error);
     }
   };
 
@@ -79,7 +80,6 @@ const PopupForm = ({ selectedColor, selectedColorName, onClose }) => {
             <label htmlFor="file-upload">Product Image:</label>
             <input type="file" id="file-upload" required name="image" onChange={handleFileChange} />
           </div>
-          
           <div className='flex'>
             <button type="submit" className='submit-btn'>Submit</button>
             <button type="button" id="close-button" className='close-btn' onClick={onClose}>Close</button>
