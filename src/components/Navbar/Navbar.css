@@ -181,10 +181,10 @@ nav {
 }
 
 /* New styles */
-.close-btn {
+.close-btn1 {
   position: absolute;
   top: 20px;
-  right: 20px;
+  right: 35px;
   background: transparent;
   border: none;
   font-size: 24px;
@@ -193,7 +193,7 @@ nav {
   transition: color 0.3s ease;
 }
 
-.close-btn:hover {
+.close-btn1:hover {
   color: #033682;
 }
 
