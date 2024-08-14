@@ -4,11 +4,10 @@ Sana Industries is my first freelancing project, an industrial management system
 
 ## Features
 
-- Industrial data management
-- Real-time data updates
-- Dashboard for monitoring and analytics
-- Admin panel for managing industrial processes
-- Email notifications using EmailJS
+1.Industrial Data Management: Efficiently handles and organizes critical industrial data.
+2.Email Notifications: Implemented using EmailJS to keep users informed with real-time updates.
+3.Responsive UI: Built with React.js and styled with Bootstrap and FontAwesome for a clean, user-friendly interface.
+4.Live Demo: Check it out here: https://sana-industry.vercel.app/
 
 ## Technologies Used
 
