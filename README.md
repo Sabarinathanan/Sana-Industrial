@@ -24,3 +24,7 @@ Sana Industries is my first freelancing project, an industrial management system
    ```bash
    git clone https://github.com/yourusername/sana-industries.git
    cd sana-industries
+
+2. Clone the repository:
+   ```bash
+   npm install
